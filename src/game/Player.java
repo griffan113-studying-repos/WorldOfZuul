@@ -42,7 +42,7 @@ public class Player {
 
             if (requiredItem != null) {
                 if (!has(requiredItem)) {
-                    System.out.println("(X) You don't the required item: " + requiredItem.getName());
+                    System.out.println("(X) You don't have the required item: " + requiredItem.getName());
 
                     return;
                 }

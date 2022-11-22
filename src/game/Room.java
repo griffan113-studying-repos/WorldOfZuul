@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 /**
- * Uma game.Room (sala) representa uma localização no cenário do jogo.
+ * Uma Room (sala) representa uma localização no cenário do jogo.
  * Ela é conectada com outras salas do jogo. Existem quatro direções possíveis: norte, sul, leste e oeste.
  * A sala possui uma referência da sala vizinha ou ela é nula se não há saída naquela direção
  */
@@ -64,7 +64,7 @@ public class Room {
     }
 
     public String getItemString() {
-        StringBuilder returnString = new StringBuilder("game.Room items:");
+        StringBuilder returnString = new StringBuilder("Room items:");
         Collection<Item> keys = items.values();
         for (Item item : keys) {
             returnString.append(" ").append(item.getName());

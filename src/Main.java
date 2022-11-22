@@ -1,7 +1,7 @@
 /**
  * World Of Zuul
- * @author eliel
- * @author douglas
+ * @author eliel m. gaspar / r.a: 740294
+ * @author douglas alencar / r.a: 741117
  */
 
 public class Main {
